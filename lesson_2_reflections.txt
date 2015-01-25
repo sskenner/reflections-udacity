@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+  - I create a new subdirectory named .git which contains all of my necessary
+  repository files - a Git repository skeleton - necessary to track (version
+  control) an existing project.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+  The staging area is a file, generally contained in the Git directory, that
+  stores info about what will go into the next commit (aka the "index"). The
+  working directory is a single checkout of one version of the project. These
+  files are pulled out of the compressed dB in the Git dir and placed on disk
+  to be used or modified.
+
+  The 'index', which acts as a sort of staging area (a type of loading dock
+  where the determination can be made regarding which changes get shipped
+  away) for a particular snapshot, allows for the building up of a series of
+  well composed snapshots from changed files in the working directory, rather
+  than having to commit all of the file changes at once.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
