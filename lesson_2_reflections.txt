@@ -1,27 +1,27 @@
-?What happens when you initialize a repository? Why do you need to do it?
+? What happens when you initialize a repository? Why do you need to do it?
   
 > I create a new subdirectory named .git which contains all of my necessary repository files - a Git repository skeleton - necessary to track (version control) an existing project. <
 
 
-?How is the staging area different from the working directory and the repository? What value do you think it offers?
+? How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 > The staging area is a file, generally contained in the Git directory, that stores info about what will go into the next commit (aka the "index"). The working directory is a single checkout of one version of the project. These files are pulled out of the compressed dB in the Git dir and placed on disk to be used or modified.
 
 The 'index', which acts as a sort of staging area (a type of loading dock where the determination can be made regarding which changes get shipped away) for a particular snapshot, allows for the building up of a series of well composed snapshots from changed files in the working directory, rather than having to commit all of the file changes at once. <
 
 
-?How can you use the staging area to make sure you have one commit per logical change?
+? How can you use the staging area to make sure you have one commit per logical change?
 
 > The staging area can be used to split work into one commit, a logically separate chageset, per issue regardless of coding workflow or timeframe. <
 
 
-?What are some situations when branches would be helpful in keeping your history organized? How would branches help? <https://www.udacity.com/course/viewer#!/c-ud775-nd/l-2969618657/m-2960548781>
+? What are some situations when branches would be helpful in keeping your history organized? How would branches help? <https://www.udacity.com/course/viewer#!/c-ud775-nd/l-2969618657/m-2960548781>
 
 > The abilty to use branches, human readable names/labels, instead of IDs (a detached-head state) to indicate commits create an organized and easy to follow history if, for example, we want to try out a new experimental feature, fix a bug or create another version (say in another language) but still want to have a working demo available. <
 
 > moving on to a new piece of work .. doing something different .. context switching .. keeps project organized when sharing and collaborating on project(s) publicly, privately on a team and/or working with oneself .. master (production) vs development (active)  vs experimental vs unique feature branch ..  
 
-?How do the diagrams help you visualize the branch structure?
+? How do the diagrams help you visualize the branch structure?
 
 > Drawing a diagram helps visualize the branch structure by indicating which branches contain which commits while detailing their corresponding reachability. < 
 
