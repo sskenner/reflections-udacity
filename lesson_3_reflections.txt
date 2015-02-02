@@ -16,7 +16,9 @@ lesson_3_reflections.txt
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    The benefit of having a copy of the last known state of a remote locally provides
+    a way to resolve any conflicts of a merge between two versions of updates before
+    making a commit and pushing to the VCS.
 
 5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
