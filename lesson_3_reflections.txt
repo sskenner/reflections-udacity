@@ -29,4 +29,8 @@ lesson_3_reflections.txt
 
 6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would want to make changes in a separate branch when I am working on code
+    that I am not ready to commit yet and/or request collaboration/feedback before
+    adding to master. Changes directly to master is less complicated and therefore
+    quicker, whereas a separate branch provides process by which collaboration
+    procedures can be controlled and tracked.
