@@ -22,7 +22,10 @@ lesson_3_reflections.txt
 
 5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    ??????????
+    W/o using Git or GitHub, I would most likely collaborate utilizing another
+    type of VCS (manual saving, Dropbox, Google Docs, Wikipedia) with less
+    features that make collaboration valuable and seemless (use of any editor,
+    offline use, manual saving, merging, branching, conflict resolution, etc.)
 
 6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
