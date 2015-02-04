@@ -1,5 +1,5 @@
 1. What happens when you initialize a repository? Why do you need to do it?
-  
+
   I create a new subdirectory named .git which contains all of my necessary repository files - a Git repository skeleton - necessary to track (version control) an existing project. <
 
 
@@ -19,11 +19,11 @@
 
   The abilty to use branches, human readable names/labels, instead of IDs (a detached-head state) to indicate commits create an organized and easy to follow history if, for example, we want to try out a new experimental feature, fix a bug or create another version (say in another language) but still want to have a working demo available. <
 
-  additional notes: moving on to a new piece of work .. doing something different .. context switching .. keeps project organized when sharing and collaborating on project(s) publicly, privately on a team and/or working with oneself .. master (production) vs development (active)  vs experimental vs unique feature branch ..  
+  additional notes: moving on to a new piece of work .. doing something different .. context switching .. keeps project organized when sharing and collaborating on project(s) publicly, privately on a team and/or working with oneself .. master (production) vs development (active)  vs experimental vs unique feature branch ..
 
 5. How do the diagrams help you visualize the branch structure?
 
-  Drawing a diagram helps visualize the branch structure by indicating which branches contain which commits while detailing their corresponding reachability. < 
+  Drawing a diagram helps visualize the branch structure by indicating which branches contain which commits while detailing their corresponding reachability. <
 
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
@@ -37,6 +37,6 @@
 
   cons: auto merging is not always able to determine which commits, modifications on the same code, should be committed. In this case it pauses the merge and then indicates which updates contain the conflict
 
-
+Create merge commit change 2
 
 

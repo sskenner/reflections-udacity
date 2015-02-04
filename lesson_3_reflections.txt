@@ -34,3 +34,5 @@ lesson_3_reflections.txt
     adding to master. Changes directly to master is less complicated and therefore
     quicker, whereas a separate branch provides process by which collaboration
     procedures can be controlled and tracked.
+
+Create merge commit change 4
