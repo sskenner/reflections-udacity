@@ -37,6 +37,6 @@
 
   cons: auto merging is not always able to determine which commits, modifications on the same code, should be committed. In this case it pauses the merge and then indicates which updates contain the conflict
 
-Create merge commit change 2
+Create merge commit change 5
 
 
