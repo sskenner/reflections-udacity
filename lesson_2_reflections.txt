@@ -16,3 +16,10 @@ Now that you’ve had some experience creating branches and drawing diagrams of 
 
 How do the diagrams help you visualize the branch structure?
 --
+Reflect: Merging Two Branches
+Now that you’ve learned how to use Git to merge branches together, go add the following question and your thoughts on it to your reflections file:
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+You may also want to commit your changes to the file. When you're ready to move on, click "Next" and Sarah will explain why this automatic merge process won't always be possible and what happens instead.
+--
