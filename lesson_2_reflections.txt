@@ -23,3 +23,10 @@ What is the result of merging two branches together? Why do we represent it in t
 
 You may also want to commit your changes to the file. When you're ready to move on, click "Next" and Sarah will explain why this automatic merge process won't always be possible and what happens instead.
 --
+Reflect: Automatic vs. Manual Merging
+Now that you’ve learned when Git will not be able to automatically merge branches, and what happens when it can’t, go add the following question and your thoughts on it to your reflections file:
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+You may also want to commit your changes to the file. When you're ready to move on, click "Next" to hear from Jeffrey again about how he uses some of the tools you've learned about in this lesson.
+--
