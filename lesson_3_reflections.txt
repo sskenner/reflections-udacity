@@ -1,1 +1,10 @@
 When would you want to use a remote repository rather than keeping all your work local?
+--
+Reflect: Manual vs. automatic pull
+Now that you've both pushed changes to GitHub, and pulled changes from GitHub, add the following question and your thoughts on it to your reflections file:
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You may also want to commit and push your changes. When you're finished, click "Next" and Sarah will go over what to do if you want to share your changes to a repository and you don't have permission to modify the original.
+--
+
