@@ -1,0 +1,42 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+  I create a new subdirectory named .git which contains all of my necessary repository files - a Git repository skeleton - necessary to track (version control) an existing project. <
+
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+  The staging area is a file, generally contained in the Git directory, that stores info about what will go into the next commit (aka the "index"). The working directory is a single checkout of one version of the project. These files are pulled out of the compressed dB in the Git dir and placed on disk to be used or modified.
+
+  The 'index', which acts as a sort of staging area (a type of loading dock where the determination can be made regarding which changes get shipped away) for a particular snapshot, allows for the building up of a series of well composed snapshots from changed files in the working directory, rather than having to commit all of the file changes at once. <
+
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+  The staging area can be used to split work into one commit, a logically separate chageset, per issue regardless of coding workflow or timeframe. <
+
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help? <https://www.udacity.com/course/viewer#!/c-ud775-nd/l-2969618657/m-2960548781>
+
+  The abilty to use branches, human readable names/labels, instead of IDs (a detached-head state) to indicate commits create an organized and easy to follow history if, for example, we want to try out a new experimental feature, fix a bug or create another version (say in another language) but still want to have a working demo available. <
+
+  additional notes: moving on to a new piece of work .. doing something different .. context switching .. keeps project organized when sharing and collaborating on project(s) publicly, privately on a team and/or working with oneself .. master (production) vs development (active)  vs experimental vs unique feature branch ..
+
+5. How do the diagrams help you visualize the branch structure?
+
+  Drawing a diagram helps visualize the branch structure by indicating which branches contain which commits while detailing their corresponding reachability. <
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  The result of merging two branches together combines them to create a single version that contains all of the changes from both. <
+
+  Arrows from the merge commit to its parents indicate that it contains info about both. Since the goal of merge is to get content from branches into the master, we will want the new commit to be the new tip (HEAD) of the master branch. Because the master branch is the one getting updated, this labeling (process) is referred to as merging the branches into the master. Thus containing all of the changes (commits) from both branches ordered by timestamp. <
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  pros: auto merging simplifies the process of combining (smooshing) together commits that do not conflict each other (different versions of the same code). <
+
+  cons: auto merging is not always able to determine which commits, modifications on the same code, should be committed. In this case it pauses the merge and then indicates which updates contain the conflict
+
+Create merge commit change 5
+
+

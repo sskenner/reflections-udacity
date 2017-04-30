@@ -30,3 +30,41 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 
 You may also want to commit your changes to the file. When you're ready to move on, click "Next" to hear from Jeffrey again about how he uses some of the tools you've learned about in this lesson.
 --
+=======
+lesson_3_reflections.txt
+
+1. When would you want to use a remote repository rather than keeping all your work local?
+
+    I would want to use a remote repository to share changes with others and collaborate on multi-developer projects.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    I might want to always pull changes manually because I may not want to update my local files with the up-to-date version on the remote.
+
+3. Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+    branches: happen (are created) on a single repository
+    cloning: involves taking an existing repo and making one just like 	it (either local > local and/or remote > local)
+    fork: cloning only from an existing github repo to another github 	repo
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    The benefit of having a copy of the last known state of a remote locally provides
+    a way to resolve any conflicts of a merge between two versions of updates before
+    making a commit and pushing to the VCS.
+
+5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+    W/o using Git or GitHub, I would most likely collaborate utilizing another
+    type of VCS (manual saving, Dropbox, Google Docs, Wikipedia) with less
+    features that make collaboration valuable and seemless (use of any editor,
+    offline use, manual saving, merging, branching, conflict resolution, etc.)
+
+6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+    I would want to make changes in a separate branch when I am working on code
+    that I am not ready to commit yet and/or request collaboration/feedback before
+    adding to master. Changes directly to master is less complicated and therefore
+    quicker, whereas a separate branch provides process by which collaboration
+    procedures can be controlled and tracked.
+
