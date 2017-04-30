@@ -45,4 +45,23 @@ to modify the original.
 
 You may also want to commit and push your changes. When you're
 finished, click "Next".
+--
+Reflect: Local copies of remote branches
+Now that you've seen how to update your local copy of remote branches,
+and how to combine conflicting changes from multiple people, add the
+following question and your thoughts on it to your reflections file:
 
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+If I am about to go without Internet access for a while, for example
+to work on a plane, I can update my local copy before I leave.  I can
+do this even if I'm not ready to merge those changes into my own
+branches yet.  Then if I want, I can perform the merge while offline,
+or I need to know what the remote version is at some point, I have an
+easy way to access it.
+
+You may also want to commit and push your changes. When you're
+finished, click "Next" and Caroline will introduce a GitHub feature
+called a Pull Request that makes collaboration easier.
+--
