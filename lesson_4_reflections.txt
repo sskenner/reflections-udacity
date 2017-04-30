@@ -65,3 +65,54 @@ You may also want to commit and push your changes. When you're
 finished, click "Next" and Caroline will introduce a GitHub feature
 called a Pull Request that makes collaboration easier.
 --
+Reflect: Collaboration using Git and GitHub
+Now that you've seen how multiple people can share changes to a
+project using GitHub, and review proposed changes using pull requests,
+go add the following question and your thoughts on it to your
+reflections file:
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+If I had to collaborate on a coding project without using Git or
+GitHub (or any other form of version control designed for code), I
+might suggest that we all make changes to a shared folder, for ex,
+a DropBox folder.  This would be a ligter-weight solution than using
+Git and GitHub.  However, if we both wanted to work on the same part
+of the file, it would be very difficult to avoid clobbering each
+other's changes.
+
+Real-time collaborative editors like Google Docs are also great for
+collaboration, but I don't know a good version of Google Docs for code
+. Even if I did, I would be hesitant to use this approach on code
+that it's important to keep bug-free.  I would be worried that someone
+else would add a change that combined with my change to make a bug,
+and I might not even notice their change!
+
+You may also want to commit and push your changes. When you're
+finished, click "Next".
+--
+Reflect: When to use a separate branch
+You just saw that the workflow when making changes in a separate
+branch is more complicated than working directly in master, especially
+when you need to stay up-to-date with changes others are making.
+Rather than simply pulling and pushing, you need to pull changes into
+your local master branch, merge the local master into your branch
+(different-oil, in our case), then push your branch to the remote
+before finally merging your branch into master, either locally or on
+GitHub.
+
+Given that, please add the following question and your thoughts on it
+to your reflections file:
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+I tend to work directly in master more often when I'm working on my
+own or with just one or two other people.  When working with a large
+group, though, using branches to keep track of which changes have
+already been reviewed and approved is extremely helpful.
+
+You may also want to commit and push your changes. When you're
+finished, click "Next" to put everything you've learned together by
+contributing to the create-your-own-adventure repository.
